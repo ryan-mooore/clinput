@@ -1,6 +1,6 @@
 # invalid
 
-A small Python library and wrapper around [pick](https://github.com/wong2/pick) to help remove the boilerplate around validating and processing command line input.
+A simple input validator for the command line and wrapper around [pick](https://github.com/wong2/pick) to help remove boilerplate when processing cli input.
 
 ## Installation
 
