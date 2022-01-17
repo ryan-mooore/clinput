@@ -5,14 +5,14 @@ with open("README.md", "r") as file:
 
 setuptools.setup(
     name="invalid",
-    version="0.0.1",
+    version="0.0.2",
     license="MIT",
     author="Ryan Moore",
     description="Simple command line input validator",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ryan-mooore/invalid",
-    download_url="https://github.com/ryan-mooore/invalid/archive/refs/tags/v0.0.1.tar.gz",
+    download_url="https://github.com/ryan-mooore/invalid/archive/refs/tags/v0.0.2.tar.gz",
     keywords=["cli", "input", "validation"],
     packages=setuptools.find_packages(),
     classifiers=[
