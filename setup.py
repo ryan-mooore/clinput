@@ -4,20 +4,19 @@ with open("README.md", "r") as file:
     long_description = file.read()
 
 setuptools.setup(
-    name="clinput",
-    packages=["clinput"],
+    name="invalid",
     version="0.0.1",
     license="MIT",
     author="Ryan Moore",
     description="Simple command line input validator",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ryan-mooore/clinput",
+    url="https://github.com/ryan-mooore/invalid",
+    download_url="https://github.com/ryan-mooore/invalid/archive/refs/tags/v0.0.1.tar.gz",
     keywords=["cli", "input", "validation"],
     packages=setuptools.find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "Intended audience :: Developers",
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",

@@ -1,17 +1,17 @@
-# clinput
+# invalid
 
 A small Python library and wrapper around [pick](https://github.com/wong2/pick) to help remove the boilerplate around validating and processing command line input.
 
 ## Installation
 
 ```sh
-pip install clinput
+pip install invalid
 ```
 
 ## Usage
 
 ```py
->>> from clinput import prompt
+>>> from invalid import prompt
 ```
 
 ### Primitives
